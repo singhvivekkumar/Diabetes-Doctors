@@ -3,7 +3,7 @@ from flask import Flask, render_template, request
 import pickle
 import numpy as np
 
-# Load the Random Forest CLassifier model
+# Load the Random Forest Classifier model
 filename = 'diabetes-doctor-rfc-model.pkl'
 classifier = pickle.load(open(filename, 'rb'))
 
